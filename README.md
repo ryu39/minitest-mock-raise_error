@@ -1,5 +1,10 @@
 # Minitest::MockRaiseError
 
+[![Build Status](https://travis-ci.org/ryu39/minitest-mock_raise_error.svg?branch=master)](https://travis-ci.org/ryu39/minitest-mock_raise_error)
+[![Code Climate](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/badges/gpa.svg)](https://codeclimate.com/github/ryu39/minitest-mock_raise_error)
+[![Test Coverage](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/badges/coverage.svg)](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/coverage)
+[![Issue Count](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/badges/issue_count.svg)](https://codeclimate.com/github/ryu39/minitest-mock_raise_error)
+
 A simple Minitest mock extension to raise error.
 
 ## Installation
