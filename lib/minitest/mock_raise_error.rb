@@ -20,4 +20,4 @@ end
 
 require 'minitest/mock'
 
-Minitest::Mock.prepend(Minitest::MockRaiseError)
+Minitest::Mock.send(:prepend, Minitest::MockRaiseError)
