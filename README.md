@@ -1,5 +1,6 @@
 # Minitest::MockRaiseError
 
+[![Gem Version](https://badge.fury.io/rb/minitest-mock_raise_error.svg)](https://badge.fury.io/rb/minitest-mock_raise_error)
 [![Build Status](https://travis-ci.org/ryu39/minitest-mock_raise_error.svg?branch=master)](https://travis-ci.org/ryu39/minitest-mock_raise_error)
 [![Code Climate](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/badges/gpa.svg)](https://codeclimate.com/github/ryu39/minitest-mock_raise_error)
 [![Test Coverage](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/badges/coverage.svg)](https://codeclimate.com/github/ryu39/minitest-mock_raise_error/coverage)
