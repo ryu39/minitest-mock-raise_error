@@ -1,0 +1,54 @@
+##################### Linting #############################
+
+##################### Metrics #############################
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/ParameterLists:
+  CountKeywordArgs: false
+
+##################### Performance #############################
+
+Performance/FlatMap:
+  EnabledForFlattenWithoutParams: false
+
+Performance/RedundantBlockCall:
+  Enabled: false
+
+##################### Rails ##################################
+
+Rails/SafeNavigation:
+  ConvertTry: true
+
+Rails/SaveBang:
+  Enabled: true
+
+##################### Security ##################################
+
+##################### Style #################################
+
+Style/AutoResourceCleanup:
+  Enabled: true
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/**/*'
+
+Style/Encoding:
+  Enabled: true
+  EnforcedStyle: never
+
+Style/IfUnlessModifier:
+  Enabled: false
+
+Style/MethodMissing:
+  Exclude:
+    - 'lib/minitest/mock_raise_error.rb'
+
+##################### Bundler #################################
+Bundler/OrderedGems:
+  Enabled: false

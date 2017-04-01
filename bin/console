@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'minitest/mock_raise_error'
+
+require 'pry'
+Pry.start
