@@ -26,7 +26,7 @@ Or install it yourself as:
 
 ## Usage
 
-Require `minitest/mock_raise_error` in your test_helper.rb before `require 'minitest/autorun''`.
+Require `minitest/mock_raise_error` in your test_helper.rb before `require 'minitest/autorun'`.
 
 ```ruby
 require 'minitest/mock_raise_error'
@@ -43,23 +43,13 @@ class MyTestError < StandardError; end
 mock = Minitest::Mock.new
 error = MyTestError.new('error message')
 mock.expect(:my_test, error)
-begin
-  mock.my_test
-  fail
-rescue MyTestError => e
-  e # => #<MyTestError: error message>
-end
+mock.my_test # specified error is raised
 mock.verify # => true
 
 # With a subclass of Exception
 mock = Minitest::Mock.new
 mock.expect(:my_test2, MyTestError)
-begin
-  mock.my_test2
-  fail
-rescue MyTestError => e
-  e # => #<MyTestError: MyTestError>
-end
+mock.my_test2 # specified class instance error is raised
 mock.verify # => true
 ```
 
